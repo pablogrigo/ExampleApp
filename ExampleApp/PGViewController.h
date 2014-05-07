@@ -10,4 +10,6 @@
 
 @interface PGViewController : UIViewController
 
+- (int)someViewControlleValue;
+
 @end

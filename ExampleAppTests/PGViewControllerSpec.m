@@ -30,7 +30,14 @@ describe(NSStringFromClass([PGViewController class]), ^{
             [[vc.title should] equal:@"Title"];
         });
     });
-    
+
+    describe(NSStringFromSelector(@selector(someViewControlleValue)), ^{
+        
+        it(@"returns a value", ^{
+            [[theValue([vc someViewControlleValue]) should] equal:@84];
+        });
+    });
+
 });
 
 SPEC_END

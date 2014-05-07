@@ -1,0 +1,3 @@
+[submodule "ExampleLibraryA"]
+	path = ExampleLibraryA
+	url = ../somepath/ExampleLibraryA/.git

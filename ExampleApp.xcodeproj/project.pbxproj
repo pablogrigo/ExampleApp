@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17A326773BB54D5AA46F7CBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F155F4E4943DCB1B39D34 /* libPods.a */; };
 		6CC93F2129E74FF7B289D2C7 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F177734CF4F4053A0C7A02B /* libPods-test.a */; };
+		CF21A8EC191A27F900BC3070 /* libExampleLibraryA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF21A8EB191A27F900BC3070 /* libExampleLibraryA.a */; };
 		CFC17234191A1A2A00C63C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17233191A1A2A00C63C8D /* Foundation.framework */; };
 		CFC17236191A1A2A00C63C8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17235191A1A2A00C63C8D /* CoreGraphics.framework */; };
 		CFC17238191A1A2A00C63C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17237191A1A2A00C63C8D /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 		278F155F4E4943DCB1B39D34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F177734CF4F4053A0C7A02B /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50C52656D97480280BFD00A /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = "<group>"; };
+		CF21A8EB191A27F900BC3070 /* libExampleLibraryA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExampleLibraryA.a; path = "ExampleLibraryA/build/Debug-iphoneos/libExampleLibraryA.a"; sourceTree = "<group>"; };
 		CF5661E2E4B04538A5E80ACA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CFC17230191A1A2A00C63C8D /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC17233191A1A2A00C63C8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF21A8EC191A27F900BC3070 /* libExampleLibraryA.a in Frameworks */,
 				CFC17236191A1A2A00C63C8D /* CoreGraphics.framework in Frameworks */,
 				CFC17238191A1A2A00C63C8D /* UIKit.framework in Frameworks */,
 				CFC17234191A1A2A00C63C8D /* Foundation.framework in Frameworks */,
@@ -111,6 +114,7 @@
 		CFC17232191A1A2A00C63C8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF21A8EB191A27F900BC3070 /* libExampleLibraryA.a */,
 				CFC17233191A1A2A00C63C8D /* Foundation.framework */,
 				CFC17235191A1A2A00C63C8D /* CoreGraphics.framework */,
 				CFC17237191A1A2A00C63C8D /* UIKit.framework */,
@@ -460,6 +464,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp/ExampleApp-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp/ExampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExampleLibraryA/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +482,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp/ExampleApp-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp/ExampleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExampleLibraryA/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

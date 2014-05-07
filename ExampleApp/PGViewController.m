@@ -7,6 +7,7 @@
 //
 
 #import "PGViewController.h"
+#import <ExampleLibraryA/ExampleLibraryA.h>
 
 @interface PGViewController ()
 
@@ -22,6 +23,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (int)someViewControlleValue {
+    ExampleLibraryA *a = [[ExampleLibraryA alloc] init];
+    return [a someValue] * 2;
 }
 
 @end
