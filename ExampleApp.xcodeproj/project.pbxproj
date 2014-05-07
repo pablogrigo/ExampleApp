@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17A326773BB54D5AA46F7CBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F155F4E4943DCB1B39D34 /* libPods.a */; };
 		6CC93F2129E74FF7B289D2C7 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F177734CF4F4053A0C7A02B /* libPods-test.a */; };
-		CF21A8EC191A27F900BC3070 /* libExampleLibraryA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF21A8EB191A27F900BC3070 /* libExampleLibraryA.a */; };
 		CFC17234191A1A2A00C63C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17233191A1A2A00C63C8D /* Foundation.framework */; };
 		CFC17236191A1A2A00C63C8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17235191A1A2A00C63C8D /* CoreGraphics.framework */; };
 		CFC17238191A1A2A00C63C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC17237191A1A2A00C63C8D /* UIKit.framework */; };
@@ -68,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF21A8EC191A27F900BC3070 /* libExampleLibraryA.a in Frameworks */,
 				CFC17236191A1A2A00C63C8D /* CoreGraphics.framework in Frameworks */,
 				CFC17238191A1A2A00C63C8D /* UIKit.framework in Frameworks */,
 				CFC17234191A1A2A00C63C8D /* Foundation.framework in Frameworks */,

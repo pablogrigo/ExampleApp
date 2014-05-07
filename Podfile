@@ -1,5 +1,7 @@
 platform :ios, "7.0"
 
+pod 'ExampleLibraryA', :path => 'ExampleLibraryA/'
+
 pod 'TestFlightSDK',  '~> 3.0.0'
 
 target :test, :exclusive => true do
