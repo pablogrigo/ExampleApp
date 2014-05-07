@@ -10,6 +10,8 @@
 	<string>ExampleApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>055650A9-DEFA-4403-8A7A-2BEC3FF93777</key>
+		<string>ssh://github.com/pablogrigo/ExampleLibraryA.git</string>
 		<key>3AEFDE30-7204-46AD-AEF9-BA0B6D6F2C10</key>
 		<string>ssh://github.com/pablogrigo/ExampleApp.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>ExampleApp.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>055650A9-DEFA-4403-8A7A-2BEC3FF93777</key>
+		<string>../ExampleLibraryA</string>
 		<key>3AEFDE30-7204-46AD-AEF9-BA0B6D6F2C10</key>
 		<string>..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>3AEFDE30-7204-46AD-AEF9-BA0B6D6F2C10</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ExampleApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>055650A9-DEFA-4403-8A7A-2BEC3FF93777</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExampleLibraryA</string>
 		</dict>
 	</array>
 </dict>
