@@ -34,7 +34,7 @@ describe(NSStringFromClass([PGViewController class]), ^{
     describe(NSStringFromSelector(@selector(someViewControlleValue)), ^{
         
         it(@"returns a value", ^{
-            [[theValue([vc someViewControlleValue]) should] equal:@82];
+            [[theValue([vc someViewControlleValue]) should] equal:@400];
         });
     });
 
